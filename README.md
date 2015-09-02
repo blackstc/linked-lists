@@ -3,8 +3,7 @@
 ## Objectives
 
 * Explain what a linked list is, and describe 3 types of linked lists
-* Explain how linked lists are useful for Stacks and Queues
-* Describe the tradeoffs of a linked list compared to an array
+* Be comfortable implementing a basic linked list
 
 ### What is a linked list?
 
