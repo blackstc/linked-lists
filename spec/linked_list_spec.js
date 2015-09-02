@@ -70,7 +70,7 @@ describe('linked list', function() {
 });
 
 
-describe('doubly linked list', function() {
+xdescribe('doubly linked list', function() {
   beforeEach(function() {
     linkedList = new DoublyLinkedList();
   });
@@ -146,7 +146,7 @@ describe('doubly linked list', function() {
   });
 });
 
-describe('circular linked list', function() {
+xdescribe('circular linked list', function() {
   beforeEach(function() {
     linkedList = new CircularLinkedList();
   });
