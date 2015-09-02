@@ -37,4 +37,5 @@ A circular linked list is a list in which the tail element's `next` property is 
 Add add/remove functionality to CircularLinkedLists and DoublyLinkedLists, there are stubs already there. Uncomment the specs, and make them pass!
 
 _Bonus_: Add Sentinel nodes. (https://en.wikipedia.org/wiki/Sentinel_node)
+
 _Bonus Bonus_: Add the ability to insert or delete nodes at arbitrary points in the list, instead of just at the end.
