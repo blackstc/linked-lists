@@ -8,14 +8,14 @@
 
 ### What is a linked list?
 
-In it's simplist form, a singly linked list, it's an ordered list of nodes. The linked list itself will contain a pointer to the HEAD node and usually some other properties, like the length of the list. Every node element contains a pointer to the data contained at that node, and a pointer to the next element in the linked list. The last element in the list will have a null reference for it's 'next' value.
+In it's simplest form, a singly linked list, it's an ordered list of nodes. The linked list itself will contain a pointer to the HEAD node and usually some other properties, like the length of the list. Every node element contains a pointer to the data contained at that node, and a pointer to the next element in the linked list. The last element in the list will have a null reference for it's 'next' value.
 
 ![singly linked list](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/816px-Singly-linked-list.svg.png)
 _A singly linked list whose nodes contain two fields: an integer value and a link to the next node_
 
 #### Exercise
 
-Implement `add` and `remove` functions to the stubbed out linked_list implentation here: https://github.com/gSchool/linked_list_practice
+Implement `add` and `remove` functions to the stubbed out linked_list implementation here: https://github.com/gSchool/linked_list_practice
 
 The tests are written for you already, you just need to make them all pass.
 
