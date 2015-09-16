@@ -172,7 +172,7 @@ xdescribe('circular linked list', function() {
 
     it ('should update the next property on the current tail when adding new nodes', function() {
       linkedList.add('First!');
-      expect(linkedList.head.next).toEqual(null);
+      expect(linkedList.head.next).toEqual(linkedList.head);
       linkedList.add('Last!');
       expect(linkedList.head.next.value).toEqual('Last!');
     });
