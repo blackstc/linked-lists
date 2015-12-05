@@ -6,7 +6,7 @@ var CircularLinkedList = require('../linked_list').CircularLinkedList;
 var linkedList;
 var node;
 
-describe('linked list', function() {
+xdescribe('linked list', function() {
   beforeEach(function() {
     linkedList = new LinkedList();
   });
@@ -70,7 +70,7 @@ describe('linked list', function() {
 });
 
 
-xdescribe('doubly linked list', function() {
+describe('doubly linked list', function() {
   beforeEach(function() {
     linkedList = new DoublyLinkedList();
   });
